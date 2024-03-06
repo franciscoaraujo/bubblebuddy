@@ -28,8 +28,8 @@ dependencies {
 	implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
 	implementation 'com.google.cloud:spring-cloud-gcp-starter-pubsub'
 	implementation 'org.jetbrains.kotlin:kotlin-reflect'
-	developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
-	implementation 'com.google.firebase:firebase-admin:7.0.0'
+	implementation 'com.google.firebase:firebase-admin:9.2.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

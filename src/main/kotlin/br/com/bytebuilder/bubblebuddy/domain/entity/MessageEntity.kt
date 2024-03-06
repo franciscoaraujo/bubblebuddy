@@ -1,3 +1,4 @@
+/*
 package br.com.bytebuilder.bubblebuddy.domain.entity
 
 import com.google.firebase.database.PropertyName
@@ -14,4 +15,4 @@ class MessageEntity(
     fun getIdSender() = idSender
     fun getIdReciver() = idReciver
     fun getTimestamp() = timestamp
-}
+}*/
