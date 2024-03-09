@@ -17,4 +17,8 @@ class UserController(private val service: UserService) {
         service.createUser(user);
     }
 
+    @PostMapping("users/login")
+    fun loginUser(@RequestBody user: User) {
+        //
+    }
 }

@@ -13,8 +13,6 @@ class User(
     fun setUserName(userName: String) = apply { this.userName = userName }
     fun setEmail(email: String) = apply { this.email = email }
     fun setProfilePicture(profilePicture: String) = apply { this.profilePicture = profilePicture }
-
-
     fun getIdUser() = idUser
     fun getUserName() = userName
     fun getEmail() = email

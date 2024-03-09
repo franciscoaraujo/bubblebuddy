@@ -8,6 +8,7 @@ import jakarta.annotation.PostConstruct
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Lazy
+import org.springframework.context.annotation.Primary
 import java.io.FileInputStream
 import java.io.IOException
 
@@ -16,7 +17,8 @@ import java.io.IOException
 @Configuration
 class FirebaseConfig {
 
-    @Lazy(true)
+
+    @Primary
     @Bean
     fun firebaseInit() : FirebaseApp{
         val refreshToken = FileInputStream("service-account-file.json")
@@ -32,4 +34,5 @@ class FirebaseConfig {
             FirebaseApp.getInstance()
         }
     }
-}*/
+}
+*/

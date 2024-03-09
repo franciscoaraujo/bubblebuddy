@@ -11,8 +11,11 @@ import java.io.FileInputStream
 class BubblebuddyApplication
 
 fun main(args: Array<String>) {
+	firebaseInit()
+	runApplication<BubblebuddyApplication>(*args)
+}
 
-
+fun firebaseInit() : FirebaseApp{
 	val refreshToken = FileInputStream("service-account-file.json")
 
 	val options = FirebaseOptions.builder()
@@ -20,12 +23,9 @@ fun main(args: Array<String>) {
 		.setDatabaseUrl("https://bubblebuddy-871a5.firebaseio.com")
 		.build()
 
-	 if (FirebaseApp.getApps().isEmpty()) {
+	return if (FirebaseApp.getApps().isEmpty()) {
 		FirebaseApp.initializeApp(options)
 	} else {
 		FirebaseApp.getInstance()
 	}
-
-	runApplication<BubblebuddyApplication>(*args)
-
 }
