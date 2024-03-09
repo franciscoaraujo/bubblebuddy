@@ -29,8 +29,8 @@ dependencies {
 	implementation 'com.google.cloud:spring-cloud-gcp-starter-pubsub'
 	implementation 'org.jetbrains.kotlin:kotlin-reflect'
 	implementation 'com.google.firebase:firebase-admin:9.2.0'
-	implementation("io.ktor:ktor-server-netty:1.6.4")
-	implementation("io.ktor:ktor-websockets:1.6.4")
+	//spring-boot-starter-websocket
+	implementation("org.springframework.boot:spring-boot-starter-websocket")
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
