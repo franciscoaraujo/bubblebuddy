@@ -1,40 +1,39 @@
-# BubbleBuddy
+#BubbleBuddy
 
-Bem-vindo ao BubbleBuddy, o aplicativo de mensagens que torna a comunicação não apenas fácil, mas também divertida! Desenvolvido com o objetivo de aprender e praticar programação, BubbleBuddy é perfeito para quem busca uma maneira simples e amigável de se conectar com amigos e colegas desenvolvedores.
+Welcome to BubbleBuddy, the messaging app that makes communicating not just easy, but fun! Developed with the aim of learning and practicing programming, BubbleBuddy is perfect for those looking for a simple and friendly way to connect with friends and fellow developers.
 
-## Começando
+## Starting
 
-Para começar a usar o BubbleBuddy, siga os passos abaixo para configurar o projeto localmente.
+To get started with BubbleBuddy, follow the steps below to configure the project locally.
 
-### Pré-requisitos
+### Prerequisites
 
-- Android Studio (para desenvolvimento Android)
+- Android Studio (for Android development)
 - JDK (Java Development Kit)
 
-### Instalação
+### Installation
 
-1. Clone o repositório para sua máquina local:
-2. Abra o projeto no Android Studio.
-3. Sincronize o projeto com os arquivos Gradle.
-4. Inicie o emulador Android ou conecte seu dispositivo Android.
-5. Execute o aplicativo a partir do Android Studio.
+1. Clone the repository to your local machine:
+2. Open the project in Android Studio.
+3. Sync the project with the Gradle files.
+4. Launch the Android emulator or connect your Android device.
+5. Run the application from Android Studio.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Kotlin**: Para o desenvolvimento do back-end e do aplicativo Android.
-- **Firebase**: Utilizado para autenticação de usuários, armazenamento de mensagens e notificações push.
+- **Kotlin**: For back-end and Android application development.
+- **Firebase**: Used for user authentication, message storage and push notifications.
 
-## Contribuindo
+## Contributing
 
-Estamos sempre abertos a contribuições! Se você tem alguma ideia, bug para reportar ou funcionalidade para adicionar, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+We are always open to contributions! If you have any ideas, bugs to report or functionality to add, feel free to open an issue or send a pull request.
 
-## Licença
+## License
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contato
+## Contact
 
-Seu Nome - @seuTwitter - email@example.com
+Your Name - @yourTwitter - email@example.com
 
-Link do Projeto: [https://github.com/seuusuario/BubbleBuddy](https://github.com/seuusuario/BubbleBuddy)
-
+Project Link: [https://github.com/seuusuario/BubbleBuddy](https://github.com/seuusuario/BubbleBuddy)
